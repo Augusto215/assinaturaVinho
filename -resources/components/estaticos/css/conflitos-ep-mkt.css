@@ -1,0 +1,18 @@
+.Footer .Footer__box-text h3 {
+    font-size: 1.17em
+}
+
+.Footer__box-bottom>.row>.col-xs-6:first-child {
+    display: flex;
+    align-items: baseline;
+    padding-top: 30px
+}
+
+.Footer__box-bottom>.row>.col-xs-6 .Logo {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.MenuList-list {
+    margin: 10px 0
+}

@@ -1,0 +1,94 @@
+@media(min-width: 768px) {
+    #experiencias .grupo .box-experiencias .slider-box-experiencias .slideExperiencia .div-infos .div-flex-01 .div-right .ctaAssine {
+        display:none
+    }
+}
+
+@media(max-width: 767px) {
+    #experiencias .grupo .box-experiencias .slider-box-experiencias .slideExperiencia .div-infos .div-flex-01 .div-right .ctaAssine {
+        display:block;
+        width: 223px;
+        padding: .45rem 0;
+        line-height: 33px;
+        font-size: 12px;
+        margin: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,.15);
+        background-color: #87c248;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: Lato,sans-serif;
+        color: #fff;
+        cursor: pointer
+    }
+
+    #experiencias .grupo .box-experiencias .slider-box-experiencias .slideExperiencia .div-infos .div-flex-01 .div-right .ctaAssine.ctaMensal {
+        display: none
+    }
+
+    #experiencias .grupo .box-experiencias .slider-box-experiencias .slideExperiencia .div-infos .div-flex-01 .div-right .saibaMais {
+        background: 0 0!important;
+        color: #c82079!important;
+        border: none!important;
+        margin-bottom: .85rem
+    }
+
+    #experiencias .grupo .box-experiencias .slider-box-experiencias .slideExperiencia .div-infos .div-flex-01 .div-right .saibaMais svg path {
+        fill: #c82079
+    }
+}
+
+#experiencias .div-toggle-main-plans {
+    display: none
+}
+
+@media(max-width: 767px) {
+    #experiencias .div-toggle-main-plans {
+        justify-content:center;
+        display: flex;
+        margin: 3rem 0
+    }
+
+    #experiencias .div-toggle-main-plans .div-toggle {
+        display: flex;
+        justify-content: space-between;
+        width: 22rem;
+        background: #c6621e;
+        padding: 1.5rem 3.5rem;
+        position: relative;
+        border-radius: 27px;
+        transition: background 200ms ease-in
+    }
+
+    #experiencias .div-toggle-main-plans .div-toggle span {
+        width: 11rem;
+        height: 85%;
+        border-radius: 28px;
+        background-color: #fff;
+        position: absolute;
+        left: 4px;
+        top: 4px;
+        content: '';
+        transition: transform 200ms linear
+    }
+
+    #experiencias .div-toggle-main-plans .div-toggle p {
+        z-index: 1;
+        font-family: neo-sans,sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 24px;
+        transition: color 200ms linear
+    }
+
+    #experiencias .div-toggle-main-plans .div-toggle p[data-active=true] {
+        color: #474952
+    }
+
+    #experiencias .div-toggle-main-plans .div-toggle p[data-active=false] {
+        color: #fff
+    }
+}
