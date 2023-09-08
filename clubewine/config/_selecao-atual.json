@@ -1,0 +1,28 @@
+[
+    {
+        "pugData": {
+            "essenciais": {
+                "callToActionPrice": "100,00",
+                "porcentAnual": 10,
+                "precoMensal": "10,00",
+                "porcentMensal": 5,
+                "descriptAnual": "Descrição para plano anual essenciais"
+            },
+            "surpreendentes": {
+                "callToActionPrice": "200,00",
+                "porcentAnual": 15,
+                "precoMensal": "20,00",
+                "porcentMensal": 8,
+                "descriptAnual": "Descrição para plano anual surpreendentes"
+            },
+            "notaveis": {
+                "callToActionPrice": "300,00",
+                "porcentAnual": 20,
+                "precoMensal": "30,00",
+                "porcentMensal": 10,
+                "descriptAnual": "Descrição para plano anual notaveis"
+            }
+           
+        }
+    }
+]
