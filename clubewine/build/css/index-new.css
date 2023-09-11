@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
+
+footer a
+{
+    font-family: 'Encode Sans', sans-serif !important;
+    font-size: 1.4rem !important;}
+
 @import "https://use.typekit.net/igt4idh.css";#video {
     padding-bottom: 60px;
     background: #fff;
@@ -674,6 +681,17 @@
     }
 }
 
+header nav a 
+{
+    font-size: 2rem !important;
+    margin:1rem;
+}
+
+.navbar-expand-lg .navbar-collapse
+{
+    justify-content: center !important;
+}
+
 #experiencias .grupo .box-experiencias .slider-box-experiencias .slick-next.slick-arrow:before {
     content: url(/clubewine/build/img/arrow-right.png);
     opacity: 1
@@ -687,7 +705,8 @@
 
 #experiencias .grupo .box-experiencias .slider-box-experiencias .slideExperiencia {
     display: flex;
-    align-items: center
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width: 767px) {
@@ -1175,7 +1194,7 @@
     font-family: Lato,sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 16px;
+    ;
     line-height: 19px;
     text-transform: uppercase;
     color: #fff;
@@ -1202,7 +1221,7 @@
     font-family: Lato,sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    ;
     line-height: 19px;
     text-align: center;
     color: #292835
@@ -1218,7 +1237,7 @@
     font-family: Lato,sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    ;
     line-height: 19px;
     text-align: center;
     color: #292835;
@@ -1332,7 +1351,7 @@
     font-family: Lato,sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 16px;
+    ;
     line-height: 19px;
     text-transform: uppercase;
     color: #fff;
@@ -1359,7 +1378,7 @@
     font-family: Lato,sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    ;
     line-height: 19px;
     text-align: center;
     color: #292835
@@ -1375,7 +1394,7 @@
     font-family: Lato,sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    ;
     line-height: 19px;
     text-align: center;
     color: #292835;
@@ -2439,7 +2458,7 @@
     font-family: Lato,sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    ;
     line-height: 36px;
     color: #fff;
     text-align: center
@@ -2502,7 +2521,7 @@ section#faqClube .grupo .tx1 {
     font-family: Lato,sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    ;
     line-height: 24px;
     color: #333
 }
